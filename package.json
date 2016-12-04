@@ -1,27 +1,21 @@
 {
-  "name": "clementinejs-fcc",
+  "name": "urlshortener",
   "version": "1.0.1",
-  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
+  "description": "URL shortener microservice written in Node.js.",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
-  },
-  "homepage": "http://www.clementinejs.com/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
+  "homepage": "https://urlshortenermicroservice.herokuapp.com/",
   "keywords": [
     "MongoDB",
     "Mongoose",
     "full stack",
     "Express",
     "Node",
-    "javascript",
-    "boilerplate"
+    "javascript"
   ],
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Blake Johnston",
+  "author": "Arthur",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
