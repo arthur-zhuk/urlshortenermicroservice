@@ -1,4 +1,4 @@
-# Clementine.js FCC Boilerplate
+# URL SHORTENER MICROSERVICE 
 ## Overview
 The URL Shortener allows one to pass a URL as a parameter and receive a shortened URL in a JSON response. If an invalid URL is passed that doesn't follow the valid http://www.website.com format, the JSON response will contain an error instead.
 
@@ -14,3 +14,9 @@ Node.js listening on port 8080...
 
 Next, open your browser and enter `http://localhost:8080/`. Congrats, you're up and running!
 
+### Using the App
+
+To use the app simply pass in a URL as a parameter as so:
+```
+https://urlshortenermicroservice.herokuapp.com/new/http://www.github.com
+```
